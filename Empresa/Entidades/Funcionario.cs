@@ -22,7 +22,7 @@ namespace Empresa.Entidades
             ValorHora = valorHora;
         }
 
-        public double Pagamento()
+        public virtual double Pagamento()
         {
             return Horas * ValorHora;
         }
